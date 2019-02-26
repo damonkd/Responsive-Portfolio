@@ -120,7 +120,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 160px;
   min-height: calc(100vh - 70px);
 }
 
@@ -214,4 +214,95 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (max-width: 640px) {
+#logo {
+
+  float: top;
+  width: 100%;
+  height: auto;
+} 
+nav {
+  float: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#main-container {
+  padding-top: 20px;
+
+}
+
+.auth-image {
+  float: center;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+footer {
+  width: 100%;
+  margin: opx;
+}
+
+.work {
+  
+  float: center;
+  width: 100%;
+}
+ul{
+  padding: 0;
+  list-style-type: none;
+  
+   
+}
+
+#contact {
+  margin-bottom: 20px;
+  width: 100%;
+}
+#masthead {
+  position: static;
+}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+  
+
+  .container {
+    
+    width: 620px;
+    
+    
+  }
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 980px and up) */
+@media only screen and (max-width: 980px) {
+
+  .container {
+    
+    max-width: 740px;
+    
+    
+  }
+  
+  nav {
+    
+    padding-right: 50px;
+
+} 
 }
